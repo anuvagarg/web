@@ -5,6 +5,7 @@ import TeamPage from "./screens/TeamPage";
 import AboutPage from "./screens/AboutPage";
 import ContactPage from "./screens/ContactPage";
 import EventPage from "./screens/EventPage";
+import CertificatePage from "./screens/CertificatePage";
 
 
 import AuthenticationPage from "./screens/AuthenticationPage";
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" exact component={HomePage} />
         <Route path="/projects" component={Projects} />
         <Route path="/team" component={TeamPage} />
+        <Route path="/certificate" component={CertificatePage} />
         <Route path="/about" component={AboutPage} />
         <Route path="/contact" component={ContactPage} />
         <Route path="/events" component={EventPage} />
