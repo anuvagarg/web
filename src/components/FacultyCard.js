@@ -12,14 +12,14 @@ import { FacultyData } from "../data/FacultyData";
 
 export default function FacultyCard() {
   return (
-    <Container maxW="80rem" centerContent>
+    <Container maxW="80rem" >
       <Heading
         fontWeight={600}
         fontSize={{ base: "2xl", sm: "2xl", md: "5xl" }}
         lineHeight={"110%"}
         color={"green"}
         margin={6}
-      >
+        textAlign={"center"}>
         Faculty Coordinators
       </Heading>
 
