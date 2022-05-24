@@ -186,9 +186,10 @@ const Info = [
       name:"Sparsh Patial", birthday:"2003-07-05"
     },
   ]
-bdayBalloons();
+
 export default function board() {
-  return (
+    bdayBalloons();
+    return (
       <main id='site-main'>
           <Heading
           fontWeight={600}
