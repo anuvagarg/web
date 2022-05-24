@@ -1,7 +1,7 @@
 import './balloons.css';
-(function bdayBallons(){
+function bdayBalloons(){
     const density = 5; // concurrent balloon count
-    const colors = ['yellow', 'green', 'blue', 'red', 'orange', 'purple', 'pink'];
+    const colors = ['yellow', 'purple', 'red', 'blue', 'pink', 'green', 'orange'];
 
     const stringElement = document.createElement("div");
     stringElement.classList.add("string");
@@ -89,4 +89,5 @@ import './balloons.css';
 
         balloonAnimation.onfinish = () => { releaseBalloon(balloon) }
     }
-})();
+}
+export default bdayBalloons;

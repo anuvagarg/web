@@ -5,6 +5,7 @@ import React from 'react';
 import './board.css';
 import List from './list'
 import './balloons.js'; 
+import bdayBalloons from "./balloons.js";
 /*import Data from './data'*/
 
 const Info = [
@@ -185,7 +186,7 @@ const Info = [
       name:"Sparsh Patial", birthday:"2003-07-05"
     },
   ]
-
+bdayBalloons();
 export default function board() {
   return (
       <main id='site-main'>
@@ -242,7 +243,6 @@ function Upcoming(person, toMonth){
         if (currentDay === day) return 0;
         return month >= currentMonth && month <= currentMonth + toMonth;
     })
-
     return filter.slice(0,2);
 
 }
